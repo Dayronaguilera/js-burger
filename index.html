@@ -10,10 +10,53 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="container">
 
+        <header></header>
 
+        <main>
 
+            <h1> Name Your Burger </h1>
+            <h3>Ingredients</h3>
+            <form class="row">
+                <ul class="col-6">
+                    <li>
+                        <label for="ingredients1">Cheese</label>
+                        <input type="checkbox" class="check-ingre" id="ingredients1" name="ingredients1" value="cheese">                      
+                    </li>
+                    <li>
+                        <label for="ingredients2">Egg</label>
+                        <input type="checkbox" class="check-ingre" id="ingredients2" name="ingredients2" value="egg">                       
+                    </li>
+                    <li>
+                        <label for="ingredients3">Mustard</label>  
+                        <input type="checkbox" class="check-ingre" id="ingredients3" name="ingredients3" value="mustard">             
+                    </li>
+                </ul>
+                <ul class="col-6">
+                    <li>
+                        <label for="ingredients4">Tomato</label>
+                        <input type="checkbox" class="check-ingre" id="ingredients4" name="ingredients4" value="tomato">                      
+                    </li>
+                    <li>
+                        <label for="ingredients5">Lettuce</label>
+                        <input type="checkbox" class="check-ingre" id="ingredients5" name="ingredients5" value="lettuce">                       
+                    </li>
+                    <li>
+                        <label for="ingredients6">Ketchup</label>  
+                        <input type="checkbox" class="check-ingre" id="ingredients6" name="ingredients6" value="ketchup">             
+                    </li>
+                </ul>
+            </form> 
 
+            <button class="create-boxes">Genera il costo!</button>
+
+            <div id="boxes-container"></div>  
+        </main>
+
+        <footer></footer>
+
+    </div>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
