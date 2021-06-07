@@ -12,52 +12,76 @@
 <body>
     <div class="container">
 
-        <header></header>
+        <header class="row">
+            <h1 class="d-flex align-items-center">Create Your Burger</h1>
+        </header>
 
         <main>
 
-            <h1> Name Your Burger </h1>
+            <h1>Name Your Burger </h1>
             <h3>Ingredients</h3>
             <form class="row">
-                <ul class="col-6">
+                <ul class="col-6 ">
                     <li>
+                        <div class="container-img">
+                            <img src="./img/cheese.svg" alt="cheese">
+                        </div>
                         <label for="ingredients1">Cheese</label>
                         <input type="checkbox" class="check-ingre" id="ingredients1" name="ingredients1" value="4">                      
                     </li>
                     <li>
+                        <div class="container-img">
+                            <img src="./img/fried-egg.svg" alt="Egg">
+                        </div>
                         <label for="ingredients2">Egg</label>
                         <input type="checkbox" class="check-ingre" id="ingredients2" name="ingredients2" value="4">                       
                     </li>
                     <li>
+                        <div class="container-img">
+                            <img src="./img/mustard.svg" alt="mustard">
+                        </div>
                         <label for="ingredients3">Mustard</label>  
                         <input type="checkbox" class="check-ingre" id="ingredients3" name="ingredients3" value="4">             
                     </li>
                 </ul>
-                <ul class="col-6">
+                <ul class="col-6 ">
                     <li>
+                        <div class="container-img">
+                            <img src="./img/tomato.svg" alt="tomato">
+                        </div>
                         <label for="ingredients4">Tomato</label>
                         <input type="checkbox" class="check-ingre" id="ingredients4" name="ingredients4" value="4">                      
                     </li>
                     <li>
+                        <div class="container-img">
+                            <img src="./img/lettuce.svg" alt="lettuce">
+                        </div>
                         <label for="ingredients5">Lettuce</label>
                         <input type="checkbox" class="check-ingre" id="ingredients5" name="ingredients5" value="4">                       
                     </li>
                     <li>
+                        <div class="container-img">
+                            <img src="./img/ketchup.svg" alt="ketchup">
+                        </div>
                         <label for="ingredients6">Ketchup</label>  
                         <input type="checkbox" class="check-ingre" id="ingredients6" name="ingredients6" value="4">             
                     </li>
                 </ul>
             </form> 
-            <div>
-                <span>Discount Cupon</span>
+            <div class="insert-cupon">
+                <span>Discount Cupon:</span>
                 <input type="text" class="discount">
             </div>
-            <button class="create-boxes">Genera il costo!</button>  
-
+            <div class="button d-flex justify-content-center">
+                <button class="create-boxes btn-lg btn btn-outline-warning ">Genera il costo!</button>  
+            </div>    
         </main>
 
-        <footer>
-            <div id="price-burger"></div> 
+        <footer class="row">
+            <div class=" d-flex justify-content-around  align-items-center">
+                <h4 >Your Price</h4>
+                <div id="price-burger"></div>
+            </div>     
         </footer>
 
     </div>

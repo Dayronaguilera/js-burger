@@ -1,0 +1,57 @@
+header{
+    width: 60%;
+    height: 130px;
+    background-color: rgb(240, 174, 51);   
+}
+header h1{
+ font-size: 50px;
+ margin-left: 30px;
+ 
+}
+
+/* utility class start */
+.container-img{
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.container-img>img{
+    width: 100%;
+}
+/* End utility class */
+
+main{
+    width: 60%;
+    margin-left: 30px;
+}
+main>h1{
+    margin: 40px 0px;
+}
+main ul{
+    list-style: none;
+}
+main ul li{
+    padding-top: 20px;
+}
+.insert-cupon{
+    margin: 40px 0px;
+}
+.insert-cupon>.discount{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(240, 167, 32, 0.2);   
+    border: none;
+}
+main .button{
+    margin-bottom: 80px;
+}
+footer{
+    width: 60%;
+    height: 80px;
+    background-color: rgb(221, 41, 71);
+    color: white;
+}
+footer #price-burger,h4{
+    font-size: 40px;
+}

@@ -19,5 +19,5 @@ generatePrice.addEventListener('click', function () {
         }
     }
     
-    outputPrice.innerHTML = 'il costo del tuo panino è: ' +  "$ "  + resultSumInt.toFixed(2);
+    outputPrice.innerHTML = "$ "  + resultSumInt.toFixed(2);
    })
