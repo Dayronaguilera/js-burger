@@ -7,10 +7,14 @@ header{
     height: 130px;
     background-color: rgb(253 , 187, 64);  
     padding-left: 15%; 
+    padding-top: 25px;
 }
 header h1{
  font-size: 50px;
  
+}
+.logo-img{
+    width: 100px;
 }
 .logo-img img{
     position: absolute;
@@ -71,10 +75,11 @@ main .button{
 }
 footer{
     width: 100%;
-    height: 80px;
-    background-color: rgb(221, 41, 71);
+    height: 100px;
+    background-color: rgb(214, 86, 107);
     color: white;
 }
 footer #price-burger,h4{
     font-size: 40px;
+    width: 20%;
 }
